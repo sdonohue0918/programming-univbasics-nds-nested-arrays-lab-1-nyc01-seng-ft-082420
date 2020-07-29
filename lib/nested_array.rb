@@ -37,7 +37,7 @@ def sorted_matrix
 
 
 
-  cp_srtd = CONVENTIONAL_PRODUCE.sort {|a,b| a <=>b}  
+  cp_srtd = CONVENTIONAL_PRODUCE.sort {|a,b| a <=>b}
 
 
   op_srtd = ORGANIC_PRODUCE.sort {|a,b| a <=> b }
