@@ -37,7 +37,13 @@ def sorted_matrix
 
 
 
-  store_shevles_matrix = [CONVENTIONAL_PRODUCE.sort {|a,b| a <=>b},  ORGANIC_PRODUCE.sort! {|a,b| a <=> b }]
+  cp_srtd = CONVENTIONAL_PRODUCE.sort {|a,b| a <=>b}  
+
+
+  op_srtd = ORGANIC_PRODUCE.sort {|a,b| a <=> b }
+
+
+  store_shevles_matrix = [cp_srtd, op_srtd]
   puts store_shevles_matrix
 end
 
