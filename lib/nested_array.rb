@@ -45,7 +45,7 @@ CONVENTIONAL_PRODUCE.sort,
 ORGANIC_PRODUCE.sort
 ]
 
-  puts store_shevles_matrix
+  return store_shevles_matrix
 end
 
 def matrix_lookup(matrix, row, column)
