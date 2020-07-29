@@ -48,7 +48,7 @@ def matrix_lookup(matrix, row, column)
 
 
 
-
+  return matrix[row.to_i][column.to_i]
 end
 
 def matrix_update(matrix, row, column, new_value)
