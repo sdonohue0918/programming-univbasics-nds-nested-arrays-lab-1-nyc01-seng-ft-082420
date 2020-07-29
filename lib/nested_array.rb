@@ -26,6 +26,7 @@ def assembled_matrix
 
 
   store_shelves_current = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  return store_shelves_current
 end
 
 def sorted_matrix
