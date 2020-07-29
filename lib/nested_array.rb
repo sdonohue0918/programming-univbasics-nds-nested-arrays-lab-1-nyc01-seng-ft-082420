@@ -38,6 +38,7 @@ def sorted_matrix
 
 
   store_shevles_matrix = [CONVENTIONAL_PRODUCE.sort {|a,b| a <=>b},  ORGANIC_PRODUCE.sort! {|a,b| a <=> b }]
+  puts store_shevles_matrix
 end
 
 def matrix_lookup(matrix, row, column)
