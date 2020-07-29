@@ -36,6 +36,7 @@ def sorted_matrix
 
 
   CONVENTIONAL_PRODUCE.sort {|a, b| a <=> b}
+  ORGANIC_PRODUCE.sort {|a, b| a <=> b}
 end
 
 def matrix_lookup(matrix, row, column)
