@@ -25,7 +25,7 @@ def assembled_matrix
 
 
 
-  assembled_matrix! = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   return assembled_matrix
 end
 
