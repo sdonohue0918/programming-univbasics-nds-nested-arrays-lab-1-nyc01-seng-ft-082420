@@ -37,7 +37,7 @@ def sorted_matrix
 
 
 
-  
+
 
 
   store_shevles_matrix = CONVENTIONAL_PRODUCE.sort {|a,b| a <=>b}
