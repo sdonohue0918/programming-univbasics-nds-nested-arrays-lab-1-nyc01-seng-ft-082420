@@ -25,8 +25,8 @@ def assembled_matrix
 
 
 
-  store_shelves_current = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  return store_shelves_current
+  assembled_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  return assembled_matrix
 end
 
 def sorted_matrix
@@ -48,7 +48,7 @@ def matrix_lookup(matrix, row, column)
 
 
 
-  return matrix[row.to_i][column.to_i]
+  return matrix
 end
 
 def matrix_update(matrix, row, column, new_value)
