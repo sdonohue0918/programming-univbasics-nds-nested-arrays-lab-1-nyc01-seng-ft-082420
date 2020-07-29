@@ -35,8 +35,10 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 
 
-  CONVENTIONAL_PRODUCE.sort {|a, b| a <=> b}
-  ORGANIC_PRODUCE.sort {|a, b| a <=> b}
+  CONVENTIONAL_PRODUCE.sort! {|a, b| a <=> b}
+  ORGANIC_PRODUCE.sort! {|a, b| a <=> b}
+
+  store_shevles_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
 
 def matrix_lookup(matrix, row, column)
